@@ -20,7 +20,7 @@ h1 span{
     color: white;
     font-weight: 700;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -63,4 +63,47 @@ p{
 
 h2{
     font-size: 40px;
+}
+
+
+/*experice area*/
+
+.experience-area{
+    background-image:url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-area h3{
+    color: orange;
+}
+
+
+.helf-width{
+    width: 50%;
+    padding-left: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    
+}
+
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
+}
+
+
+footer p{
+    text-align: center;
 }
